@@ -3,7 +3,8 @@
 ## Really shutting down ##
 Starting with Windows 8 a shutdown isn't always a complete shutdown as you might expect. The process it more a variation on the hibernate feature. Windows shuts down all applications loaded in the user space, but kernel mode applications are hibernated from memory to disk.  Most of the time this is ok, but sometimes a faulted process/memory address keeps everything from behaving as desired.
 
-To shutdown the machine and a achieve a clean cold boot run the following command:
+To shutdown the machine and achieve a clean cold boot run the following command:
+
 ``` shutdown /s /t 0 ```
 
 
